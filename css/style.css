@@ -12,6 +12,7 @@ a {
 
 body {
     background: var(--nord1);
+    font-family: 'Inconsolata', 'Courier New', Courier, monospace;
 }
 
 ul {
