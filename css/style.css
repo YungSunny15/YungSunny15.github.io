@@ -28,6 +28,7 @@ ul {
 
 li {
     display: inline;
+    height: 1.25em;
     width: 100%
 }
 
