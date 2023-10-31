@@ -1,0 +1,29 @@
+:root {
+    --nord1: #3b4252;
+    --nord3: #4c566a;
+}
+
+body {
+    background: var(--nord1);
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 1em;
+    margin: 0em;
+}
+
+h2 {
+    text-align: center;
+    margin: 0em;
+    padding-top: 1em;
+}
+
+.box {
+    background: var(--nord3);
+    border-radius: 1em;
+    margin: 1em;
+    min-width: 10em;
+    max-width: 20%;
+}
