@@ -1,6 +1,13 @@
 :root {
     --nord1: #3b4252;
     --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord7: #8fbcbb;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
 }
 
 body {
@@ -12,12 +19,15 @@ ul {
     text-align: center;
     padding: 1em;
     margin: 0em;
+    color: var(--nord4);
 }
 
 h2 {
     text-align: center;
     margin: 0em;
-    padding-top: 1em;
+    padding-top: .5em;
+    color: var(--nord7);
+    font-size: 1.5rem;
 }
 
 .box {
