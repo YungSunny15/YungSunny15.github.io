@@ -11,25 +11,23 @@ a {
 }
 
 body {
+    box-sizing: border-box;
     background: var(--nord1);
     font-family: 'Inconsolata', 'Courier New', Courier, monospace;
 }
 
 ul {
-    display: flex;
+    display: flexbox;
     align-items: center;
-    flex-wrap: wrap;
     list-style-type: none;
     text-align: center;
-    padding: 1em;
-    margin: 0em;
+    padding: 0em;
+    margin: 1em;
     color: var(--nord4);
 }
 
 li {
-    display: inline;
     height: 1.25em;
-    width: 100%
 }
 
 h2 {
@@ -41,7 +39,7 @@ h2 {
 }
 
 .container {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     height: 100vh;
     width: 100vw;
