@@ -1,8 +1,8 @@
 :root {
-    --nord1: #3b4252;
-    --nord3: #4c566a;
-    --nord4: #d8dee9;
-    --nord7: #8fbcbb;
+    --bgcolor: #3b4252;
+    --boxcolor: #26233A;
+    --textcolor: #C4A7E7;
+    --hcolor: #9CCFD8;
 }
 
 a {
@@ -12,7 +12,7 @@ a {
 
 body {
     box-sizing: border-box;
-    background: var(--nord1);
+    background: var(--bgcolor);
     font-family: 'Inconsolata', 'Courier New', Courier, monospace;
 }
 
@@ -23,7 +23,7 @@ ul {
     text-align: center;
     padding: 0em;
     margin: 1em;
-    color: var(--nord4);
+    color: var(--textcolor);
 }
 
 li {
@@ -34,7 +34,7 @@ h2 {
     text-align: center;
     margin: 0em;
     padding-top: .5em;
-    color: var(--nord7);
+    color: var(--hcolor);
     font-size: 1.5rem;
 }
 
@@ -48,7 +48,7 @@ h2 {
 }
 
 .box {
-    background: var(--nord3);
+    background: var(--boxcolor);
     border-radius: 1em;
     margin: 1em;
     width: 15%;
