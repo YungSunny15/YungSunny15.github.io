@@ -1,8 +1,18 @@
 :root {
+    /*      Nord    */
+    --bgcolor: #3b4252;
+    --boxcolor: #4c566a;
+    --textcolor: #eceff4;
+    --hcolor: #88c0d0;
+
+
+    /*  rose pine   */
+    /*
     --bgcolor: #191724;
     --boxcolor: #26233A;
     --textcolor: #C4A7E7;
     --hcolor: #EBBCBA;
+     */
 }
 
 a {
@@ -10,7 +20,8 @@ a {
     text-decoration: inherit;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
